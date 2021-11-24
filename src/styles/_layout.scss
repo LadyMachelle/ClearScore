@@ -1,0 +1,19 @@
+.card-row {
+  display: inline-grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: 16px;
+  grid-gap: 16px;
+
+  @media screen and (min-width: $medium) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (min-width: $large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (min-width: $extra-large) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+

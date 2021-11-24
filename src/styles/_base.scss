@@ -1,0 +1,25 @@
+
+body {
+  font-family: "roboto";
+  background-color: #f7f7f8 !important;
+}
+
+h1 {
+  font-size: $font-xlarge;
+  color: $midnight;
+}
+h2 {
+  font-size: $font-default;
+  padding-bottom: $spacing-xxs;
+  color: $midnight;
+  margin-top:$padding-s;
+}
+h3 {
+  font-size: $font-medium;
+  color: $midnight;
+  font-weight: $font-weight-light;
+}
+
+p {
+  margin-bottom: 0px;
+}

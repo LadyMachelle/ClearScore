@@ -1,0 +1,44 @@
+.card-container {
+  .card {
+    background-color: $white-background;
+    border: $no-border;
+    border-radius: $border-radius-large;
+    height: 100%;
+
+    .card-body {
+      box-shadow: $drop-shadow;
+      border-radius: $border-radius-large;
+      &:hover {
+        box-shadow: $drop-shadow-hover;
+        cursor: $cursor-pointer;
+      }
+    }
+  }
+}
+.btn-secondary {
+  border-radius: $border-radius-small;
+  display: inline-block;
+  padding: 4px 8px;
+  border: none;
+  background-color: $gray-pill-background;
+  color: $midnight;
+  font-size: $font-small;
+  text-transform: $text-transform-uppercase;
+  margin-left: $spacing-l;
+  letter-spacing: 0.8px;
+}
+
+.linktext-container {
+  margin-top: $spacing-l;
+  .link-text {
+    color: $cta;
+    text-decoration: none;
+    font-size: $font-medium;
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: underline;
+      color: $cta-hover;
+    }
+  }
+}

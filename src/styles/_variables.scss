@@ -1,0 +1,68 @@
+$border-radius-large: 8px;
+$border-radius-small: 4px;
+
+//Colours
+$midnight: hsl(211, 32%, 21%);
+$gallery: #f7f7f8;
+$cta: hsl(194, 83%, 35%);
+$cta-hover: #66aec5;
+$green-pill-text: #15693b;
+$green-pill-background: #ddf9ea;
+$orange-pill-text: #764c25;
+$orange-pill-background: #fdefe2;
+$gray-pill-background: #eeeff1;
+$white-background: #ffffff;
+
+//Font sizes
+$font-default: 16px;
+$font-small: 12px;
+$font-medium: 14px;
+$font-large: 20px;
+$font-xlarge: 24px;
+
+//Font weights
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+$font-weight-light: 400;
+
+//Spacing
+$spacing-xxs: 4px;
+$spacing-xs: 8px;
+$spacing-s: 10px;
+$spacing-m: 16px;
+$spacing-l: 24px;
+
+//Shadows
+$drop-shadow: 0 0.5rem 0.75rem rgba(194, 194, 194, 0.16);
+$drop-shadow-hover: 0 0.5rem 0.75rem rgba(0, 0, 0, 0.16);
+
+//Position
+$absolute-position: absolute;
+$relative-position: relative;
+
+//Breakpoints
+$small: 375px;
+$medium: 768px;
+$large: 1024px;
+$extra-large: 1280px;
+
+//Padding
+$padding-s: 24px;
+$padding-m: 32px;
+$padding-l: 64px;
+$padding-none: 0;
+
+//Cursor
+$cursor-pointer: pointer;
+
+//No Border
+$no-border: none;
+
+//Text Transform Uppercase
+$text-transform-uppercase: uppercase;
+
+//Tooltip Component
+$tooltip-text-color: $white-background;
+$tooltip-background-color: $cta;
+$tooltip-margin: 30px;
+$tooltip-arrow-size: 6px;

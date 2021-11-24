@@ -1,0 +1,10 @@
+.pill {
+  border-radius: $border-radius-small;
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: $orange-pill-background;
+  color:$orange-pill-text;
+  font-size:$font-small;
+  text-transform: $text-transform-uppercase;
+  letter-spacing: 0.8px;
+}
